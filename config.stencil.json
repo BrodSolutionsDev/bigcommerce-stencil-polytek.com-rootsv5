@@ -3,7 +3,7 @@
     "brand": {},
     "category": {},
     "page": {},
-    "product": {}
+    "product": {"polytek-product.html": "/products/concrete-mold-making-starter-kit"}
   },
   "normalStoreUrl": "https://polytek.com",
   "port": 3000

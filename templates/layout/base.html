@@ -96,20 +96,6 @@
         {{{footer.scripts}}}
     </body>
     <script>
-    (function() {
-        const header = document.querySelector(".header-custom");
-        const body = document.querySelector(".body");
-
-        const headerRect = header.getBoundingClientRect();
-
-        body.style.marginTop = headerRect.height + "px";
-
-        window.addEventListener("resize", function() {
-            body.style.marginTop = headerRect.height + "px";
-        });
-    })();  
-    </script>
-    <script>
         // if the template file is a product template
         if ("{{template_file}}".includes("product")) {
             // callback function for the observer to call
