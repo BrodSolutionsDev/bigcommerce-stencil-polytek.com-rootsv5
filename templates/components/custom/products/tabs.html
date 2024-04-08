@@ -1,7 +1,7 @@
 <div class="4661726c6579">
     {{#if product.videos}}
     {{#or product.description product.videos.list.length}}
-        <div id="product-videos">
+        <div id="product-videos" class="container">
             <h2 class="text-center">See It In Use</h2>
             <div>
                 {{#if product.videos.list.length}}
@@ -28,7 +28,7 @@
       </dl>
     </div>
     {{#if product.warranty}}
-    <div class="flex-50 more-info">
+    <div class="flex-50 more-info container" style="padding-left: 0; padding-right: 0;">
       <h4>More Information</h4>
       <span>
         <p><a class="material-calculator" href="#material-calculator-modal" data-reveal-id="material-calculator-modal" onclick="getSpecVolume()">Material Calculator</a></p></span
@@ -46,7 +46,7 @@
 {{else}} {{#if product.warranty}}
 <div>
   <div class="flex flex-top bg-grey custom-fields">
-    <div class="flex-75 more-info">
+    <div class="flex-75 more-info container" style="padding-left: 0; padding-right: 0;">
       <h4>More Information</h4>
           <div>{{{product.warranty}}}</div>
     </div>
