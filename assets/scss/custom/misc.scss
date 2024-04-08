@@ -1,0 +1,6 @@
+.modal-close {
+    &::before,
+    &::after {
+        display: none !important;
+    }
+}
